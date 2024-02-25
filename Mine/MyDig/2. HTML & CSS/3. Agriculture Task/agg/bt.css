@@ -1,0 +1,9 @@
+.company-section {
+    background-image: url('./images/field-agriculture-farm-landscape.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.product-menu:hover.custom-hover{
+    display: block !important;
+}

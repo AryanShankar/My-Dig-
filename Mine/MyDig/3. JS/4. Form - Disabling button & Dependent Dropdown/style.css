@@ -1,0 +1,28 @@
+input[type="text"], input[type="tel"], input[type="number"], select {
+    margin-bottom: 10px;
+  }
+
+  #submitBtn {
+    background-color: lightgray;
+    padding: 10px 20px;
+    border: none;
+    cursor: not-allowed;
+  }
+
+  #submitBtn:hover {
+    background-color: lightgray;
+    opacity: 0.5;
+  }
+
+  #submitBtn.enabled {
+    background-color: green;
+    cursor: pointer;
+  }
+
+  form {
+    width: 300px;
+    margin: 80px auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}

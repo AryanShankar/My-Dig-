@@ -1,0 +1,23 @@
+Manual testing:
+1. white box - done by developers
+
+
+2. Black box testing - functional/non-functiional testing
+
+Functional testing:
+unit testing (done by develoipers)
+intergattion testing - incremental(bottom up/top down)/non-incremental testing
+system testing (hardware/memory)
+
+non-functiional testing - browsers:
+perforemance testing (load/stress/scalability/stability testing)
+usability testing
+compatability testing
+
+
+3. Grey box testing - penetration testing
+
+
+Static/Dynamic testing(positive/negative testing)
+
+STLC (software testing lifecycle)

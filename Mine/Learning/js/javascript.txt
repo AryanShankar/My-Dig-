@@ -1,0 +1,25 @@
+let and var
+
+=== strict cheking ("5" and 5 gives false in === while true in ==)
+
+
+hoisting
+closure -fucntion within a fucntion
+
+what is static
+
+js events: to make something interactive
+event listeners (sees what a user does)
+
+
+declarative* vs imperative level coding
+
+declaractive:
+onClick event
+onSubmit event
+onChange event (dropdown menu/ search boxes)
+
+
+H/W:
+state and cities dropdown menu
+submit button not clickable if all fields not filled and when hover shows whats not filled

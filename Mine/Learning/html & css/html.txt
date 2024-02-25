@@ -1,0 +1,14 @@
+id for every elemnt
+tab index
+for in forms
+
+
+table can be used for structuring as well
+
+w3
+
+
+easily accesiblility for web scraping
+
+Scalability (time and space complexty ) and readability (comments easy logic) 
+

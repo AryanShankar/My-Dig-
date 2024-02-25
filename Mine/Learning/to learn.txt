@@ -1,0 +1,64 @@
+position: relative/abosulute
+
+callback, closure
+
+
+
+
+key names shudnt have space or have capital letter
+naming conventions in ids and class and variables
+
+static 
+add append appendchild insert
+for, forEach
+classList
+event (target, blah blah)
+
+this keyword
+
+every(), etc
+
+
+
+
+
+dropdown validations (disabled)
+phone & pincode starting digit showing (shudnt)
+
+
+
+
+
+
+1. Introduction to Apache, PHP, MySQL with Muthu
+
+2. XAMPP Installation
+
+PHP:
+
+PHP Basics - PHP Functions, Syntax, Arguments, Variables, References, Pass by Value & Pass by references, PHP String functions
+
+PHP Arrays, PHP Associative Arrays, Array Iteration, PHP Multi-Dimensional Arrays
+
+1. PHP Arrays, PHP Associative Arrays, Array Iteration, PHP Multi-Dimensional Arrays (Cont.)
+
+2. PHP Control Structures, PHP Loops
+
+
+
+
+
+
+to do php file:
+
+user data input:
+name
+number
+mail
+gender (radio)
+upload file (make sure only txt, pdf, docx)
+job choose (dropdwons)
+
+validation for all
+
+append all data to JSON.

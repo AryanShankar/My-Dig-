@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form id="userInfoForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone"><br>
+
+    <label for="state">State:</label>
+    <select id="state" name="state" onchange="updateCityDropdown()">
+      <option value="" disabled selected>Select State</option>
+    </select>
+    <br>
+    <label for="city">City:</label>
+    <select id="city" name="city" onchange="updateStateDropdown()">
+      <option value="" disabled selected>Select City</option>
+    </select>
+    <br>
+
+    <label for="pincode">Pincode:</label><br>
+    <input type="number" id="pincode" name="pincode"><br>
+
+    <button type="button" id="submitBtn" disabled>Submit</button> <!-- class="enabled" if given button is green -->
+    
+    <div id="formValues"></div>
+</form>
+
+
+<script src="app.js"></script>  
+  
+
+</body>
+</html>

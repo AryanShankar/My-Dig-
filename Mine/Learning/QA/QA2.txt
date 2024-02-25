@@ -1,0 +1,10 @@
+Automation frameworks:
+Cucumber framework with selenium (used for UI testing)
+karate framework 
+
+Data driven framwork (used in CRM)
+
+TestNG framework (read excel sheets and make beautiful reports) - annotations(@before, @after, @ignore)
+
+
+

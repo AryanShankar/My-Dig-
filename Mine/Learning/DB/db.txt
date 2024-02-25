@@ -1,0 +1,32 @@
+OLTP (used)
+OLAP - multi dimensional database
+
+Development
+Administration
+Business Analytics
+
+Integration services (ETL services/tools are used)
+Analytical services (OLAP)
+Reporting services (building analytical reports)/ Power BI, Tableua
+Database storage area
+
+delete and soft delete
+
+Views are slower
+Triggers (@before, @after, etc) 
+
+group by and joins 
+
+
+
+getlastid - to get last id of auto increment
+limit - for pagination
+
+
+TASKS:
+read csv file and bulk insert in database
+get student data via html form and store it in mutilple tables ***
+pagination task
+display student details in at table (with sort/filter)
+create a page where you can CRUD on data displayed.
+bulk insertion (one-by-one & all at once : find time difference between both)

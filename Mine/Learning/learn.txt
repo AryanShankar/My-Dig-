@@ -1,0 +1,55 @@
+position: relative/abosulute
+
+callback, closure
+
+
+
+
+key names shudnt have space or have capital letter
+naming conventions in ids and class and variables
+
+static 
+add append appendchild insert
+for, forEach
+classList
+event (target, blah blah)
+
+this keyword
+
+every(), etc
+
+
+
+
+
+dropdown validations (disabled)
+phone & pincode starting digit showing (shudnt)
+
+
+
+
+
+
+1. Introduction to Apache, PHP, MySQL with Muthu
+
+2. XAMPP Installation
+
+PHP:
+
+PHP Basics - PHP Functions, Syntax, Arguments, Variables, References, Pass by Value & Pass by references, PHP String functions
+
+PHP Arrays, PHP Associative Arrays, Array Iteration, PHP Multi-Dimensional Arrays
+
+1. PHP Arrays, PHP Associative Arrays, Array Iteration, PHP Multi-Dimensional Arrays (Cont.)
+
+2. PHP Control Structures, PHP Loops
+
+
+
+
+
+
+
+
+
+i need to make a calculator using only html css and javascript. the operations that the calculator should provide are addition(+), subtraction(-), division (/), multiplication(*), exponential(^). it should also be able to find square root of the displayed number when sqrt button is pressed. it should also have buttons like pie(22/7) which if pressed the number displayed should be multiplied to 22/7. It should also have a factorial button (!) which when pressed will give the factorial of the number shown on the screen. It should also have a decimal (.) option to add decimal point in numbers for calculations.   

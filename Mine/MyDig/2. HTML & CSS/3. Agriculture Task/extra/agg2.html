@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            margin-left: 20px;
+        }
+        .login {
+            margin-right: 20px;
+        }
+        .main-nav {
+            background-color: #f2f2f2;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .main-nav a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .main-nav a:hover {
+            background-color: #ddd;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+            min-height: 500px; /* Ensure a minimum height for the sections */
+            color: #333; /* Set text color */
+            position: relative;
+        }
+        #about {
+            background-image: C:\Users\aryan.shankar\OneDrive - My Digital Accounts\Desktop('/img/agriculture-photo.jpg'); /* Set background image */
+            background-size: cover; /* Cover the entire section */
+            background-position: center; /* Center the background image */
+            color: white; /* Text color for contrast */
+        }
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="logo">
+            <img src="your-logo.png" alt="Logo" width="150">
+        </div>
+        <div class="login">
+            <a href="#">Login</a> / <a href="#">Sign Up</a>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <div class="main-nav">
+        <a href="#about">About Us</a>
+        <a href="#shop">Shop</a>
+        <a href="#loans">Get Loans</a>
+        <a href="#analysis">Land & Crop Analysis</a>
+    </div>
+
+    <!-- About Us Section -->
+    <div id="about" class="section">
+        <div class="overlay">
+            <h2>About Us</h2>
+            <p>Welcome to our agriculture website. Learn about our mission and vision.</p>
+        </div>
+    </div>
+
+    <!-- Shop Section -->
+    <div id="shop" class="section" style="background-color: #8FB68C;">
+        <h2>Shop</h2>
+        <p>Explore our wide range of agricultural products.</p>
+    </div>
+
+    <!-- Get Loans Section -->
+    <div id="loans" class="section" style="background-color: #E0E0E0;">
+        <h2>Get Loans</h2>
+        <p>Find out how you can get financial assistance for your farming needs.</p>
+    </div>
+
+    <!-- Land & Crop Analysis Section -->
+    <div id="analysis" class="section" style="background-color: #8FB68C;">
+        <h2>Land & Crop Analysis</h2>
+        <p>Learn about our tools and services for analyzing land and crops.</p>
+    </div>
+</body>
+</html>

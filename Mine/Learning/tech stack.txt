@@ -1,0 +1,6 @@
+HTML/CSS + JS
+PHP + MYSql
+Laravel + Angular
+Zaamp (server)
+
+Mini project

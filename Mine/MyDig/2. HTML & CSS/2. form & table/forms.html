@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application Form</title>
+
+  <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+td {
+  padding: 5px;
+  
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+input[type="file"] {
+    margin-top: 4px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+
+  </style>
+
+</head>
+<body>
+
+  <form action="/" method="">
+    <table>
+      <caption><h2>Job Application Form</h2></caption>
+      <tr>
+        <th><label for="applicant-name">Your Name:</label></th>
+        <td><input type="text" id="applicant-name" name="applicant-name" required tabindex="1"></td>
+      </tr>
+      <tr>
+  		<th><label for="gender">Gender:</label></th>
+  		<td>
+    		<input type="radio" id="male" name="gender" value="male" required tabindex="2">
+    		<label for="male">Male</label>
+    
+    		<input type="radio" id="female" name="gender" value="female" required tabindex="3">
+    		<label for="female">Female</label>
+    
+    		<input type="radio" id="other" name="gender" value="other" required tabindex="4">
+    		<label for="other">Other</label>
+  		</td>
+      <tr>
+        <th><label for="email">Email:</label></th>
+        <td><input type="email" id="email" name="email" required tabindex="5"></td>
+      </tr>
+
+      <tr>
+        <th><label for="job-role">Job Role:</label></th>
+        <td>
+          <select id="job-role" name="job-role" required tabindex="6">
+            <option value="software-developer">Software Developer</option>
+            <option value="data-analyst">Data Analyst</option>
+            <option value="sales-rep">Sales Rep</option>
+            <option value="buisness-analyst">Buisness Analyst</option>
+          </select>
+        </td>
+      </tr>
+      
+      <tr>
+        <th><label for="resume">Upload Resume:</label></th>
+        <td><input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required tabindex="7"></td>
+      </tr>
+      <tr>
+        <th><label for="about-urself">About Yourself:</label></th>
+        <td><textarea id="about-urself" name="about-urself" rows="4" cols="" required tabindex="8"></textarea></td>
+      </tr>
+      <tr>
+        <th><label for="experience">Years of Experience:</label></th>
+        <td><input type="number" id="experience" name="experience" required tabindex="9"></td>
+      </tr>
+      <tr>
+        <th><label for="education">Highest Education:</label></th>
+        <td>
+          <select id="education" name="education" required tabindex="10">
+            <option value="high-school">High School</option>
+            <option value="associate">Bachelor's Degree</option>
+            <option value="bachelor">phd</option>
+            <option value="master">Master's Degree</option>
+            <option value="doctorate">Doctorate</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th><label for="queries">Any Queries:</label></th>
+        <td><textarea id="queries" name="queries" rows="4" cols="" required tabindex="11"></textarea></td>
+      </tr>
+    </table>
+    
+    <input type="submit" value="Submit" tabindex="12">
+    <input type="reset" value="Reset" tabindex="13">	
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+js:
+heap and stack 
+call back queue
+web api
+
+
+rem - root em (unit of root elemt)
+
+a4 size pixels: 2480 x 3508
+use pixels in pdf files to keep it in bound
+
+rem use for websites
+
+css rulesset
+@rules
+
+important tag
+

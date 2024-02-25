@@ -1,0 +1,12 @@
+linked in
+
+name
+gender : radio buttons
+phone number
+email
+college choose
+select what u wanna learn/know (checkboxes)
+expireince
+previous/current job role
+
+
